@@ -23,7 +23,7 @@ public class CommBasedPartTime : PartTime{
     }
     
     public override func calcEarnings() -> Int {
-        return Int(Float((Rate * NHours)) * Commision)
+        return Int(Float(Rate * NHours) * Commision)
     }
     
 }
