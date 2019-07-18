@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3A21DA22D922150004D253 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3A21D922D922150004D253 /* PartTime.swift */; };
 		CD42C00B22BD804F00BB8600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42C00A22BD804F00BB8600 /* AppDelegate.swift */; };
 		CD42C00D22BD804F00BB8600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42C00C22BD804F00BB8600 /* ViewController.swift */; };
 		CD42C01022BD804F00BB8600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD42C00E22BD804F00BB8600 /* Main.storyboard */; };
 		CD42C01222BD805000BB8600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD42C01122BD805000BB8600 /* Assets.xcassets */; };
 		CD42C01522BD805000BB8600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD42C01322BD805000BB8600 /* LaunchScreen.storyboard */; };
 		CD42C01D22BD80C800BB8600 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42C01C22BD80C800BB8600 /* Employee.swift */; };
+		CDD56F3022CFF8EB0099F58C /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD56F2F22CFF8EB0099F58C /* FullTime.swift */; };
+		CDEB870322E00EB90073CCEB /* CommBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEB870222E00EB90073CCEB /* CommBasedPartTime.swift */; };
+		CDEB870522E00EDA0073CCEB /* FixedBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEB870422E00EDA0073CCEB /* FixedBasedPartTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD3A21D922D922150004D253 /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
 		CD42C00722BD804F00BB8600 /* hr1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hr1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD42C00A22BD804F00BB8600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD42C00C22BD804F00BB8600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		CD42C01422BD805000BB8600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD42C01622BD805000BB8600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD42C01C22BD80C800BB8600 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		CDD56F2F22CFF8EB0099F58C /* FullTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTime.swift; sourceTree = "<group>"; };
+		CDEB870222E00EB90073CCEB /* CommBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommBasedPartTime.swift; sourceTree = "<group>"; };
+		CDEB870422E00EDA0073CCEB /* FixedBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasedPartTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				CD42C01322BD805000BB8600 /* LaunchScreen.storyboard */,
 				CD42C01622BD805000BB8600 /* Info.plist */,
 				CD42C01C22BD80C800BB8600 /* Employee.swift */,
+				CDD56F2F22CFF8EB0099F58C /* FullTime.swift */,
+				CD3A21D922D922150004D253 /* PartTime.swift */,
+				CDEB870222E00EB90073CCEB /* CommBasedPartTime.swift */,
+				CDEB870422E00EDA0073CCEB /* FixedBasedPartTime.swift */,
 			);
 			path = hr1;
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 				CD42C00D22BD804F00BB8600 /* ViewController.swift in Sources */,
 				CD42C01D22BD80C800BB8600 /* Employee.swift in Sources */,
 				CD42C00B22BD804F00BB8600 /* AppDelegate.swift in Sources */,
+				CD3A21DA22D922150004D253 /* PartTime.swift in Sources */,
+				CDEB870522E00EDA0073CCEB /* FixedBasedPartTime.swift in Sources */,
+				CDD56F3022CFF8EB0099F58C /* FullTime.swift in Sources */,
+				CDEB870322E00EB90073CCEB /* CommBasedPartTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
